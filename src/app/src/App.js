@@ -40,7 +40,7 @@ export function App() {
 
   return (
     <div className="App">
-      {error && <ErrorPopup message={error} isError={true} />}
+      {error && <ErrorPopup message={error} />}
       <TodoList todos={todos} />
       <CreateTodo
         newTodo={newTodo}
